@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: edu.coursera.parallel.StudentAnalyticsTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.449 sec <<< FAILURE! - in edu.coursera.parallel.StudentAnalyticsTest
+testMostCommonFirstNameOfInactiveStudentsPerf(edu.coursera.parallel.StudentAnalyticsTest)  Time elapsed: 5.007 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected speedup to be at least 2.0 but was 1.8486682808716708
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at edu.coursera.parallel.StudentAnalyticsTest.testMostCommonFirstNameOfInactiveStudentsPerf(StudentAnalyticsTest.java:123)
+
